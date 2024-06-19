@@ -1,0 +1,22 @@
+
+>    print(L_site_aov_Tukey)
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = length ~ site, data = clam_data_clean)
+
+$site
+                              diff        lwr        upr     p adj
+Chatham-Barnstable      -37.258647 -58.449239 -16.068054 0.0000417
+Dennis-Barnstable         7.137152 -12.948084  27.222388 0.8595297
+Eel Pond-Barnstable     -42.542105 -62.061446 -23.022764 0.0000003
+Provincetown-Barnstable -13.758097 -31.916169   4.399975 0.2252050
+Dennis-Chatham           44.395798  22.682824  66.108773 0.0000015
+Eel Pond-Chatham         -5.283459 -26.474051  15.907134 0.9572838
+Provincetown-Chatham     23.500549   3.556826  43.444273 0.0125295
+Eel Pond-Dennis         -49.679257 -69.764493 -29.594021 0.0000000
+Provincetown-Dennis     -20.895249 -39.660313  -2.130185 0.0212317
+Provincetown-Eel Pond    28.784008  10.625936  46.942080 0.0002685
+
+
+>    sink() 
